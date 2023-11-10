@@ -1,0 +1,30 @@
+<div>
+    <h2>Liste des joueurs :</h2>
+</div> 
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Prenom</th>
+        <th scope="col">Photo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td *ngFor="let joueur of joueurs">11</td>
+        <td>Otto</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td *ngFor="let joueur of joueurs">{{ joueur }}</td>
+        <td>Thornton</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td *ngFor="let joueur of joueurs">{{ joueur }}</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
